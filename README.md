@@ -12,10 +12,12 @@ Instructions
 
     // The Base URL of the Service Provider
     public static $base_url = ''; 
+
     // Consumer Key
     public static $consumer_key = '';
-    // Consumer Secret
-    public static $consumer_secret  = ''; >
+ 
+   // Consumer Secret
+   public static $consumer_secret  = ''; >
 
 +  FTP the f1login folder into the joomla folder plugins/authentication.
  
