@@ -7,14 +7,14 @@ General Public License
 
 To use:
 
-1.  Goto f1login/OAuth/AppConfig.php file an update
- 
-    // The Base URL of the Service Provider
-    public static $base_url = ''; 
-    // Consumer Key
-    public static $consumer_key = '';
-    // Consumer Secret
-    public static $consumer_secret  = '';
+1.  Goto OAuth/AppConfig.php and update:
+
+// The Base URL of the Service Provider
+public static $base_url = ''; 
+// Consumer Key
+public static $consumer_key = '';
+// Consumer Secret
+public static $consumer_secret  = '';
 
 2.  FTP the f1login folder into the joomla folder plugins/authentication.
  
