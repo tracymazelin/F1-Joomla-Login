@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="authentication">
+	<name>Authentification - Fellowship One</name>
+	<author>Gail Peterson</author>
+	<creationDate>November 2011</creationDate>
+	<copyright>Copyright (C) 2011 - 2012 Calvary Evangelical Free Church.</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>gpeterson@calvaryefc.org</authorEmail>
+	<authorUrl>www.calvaryefc.org</authorUrl>
+	<version>1.0</version>
+	<description>Login Authentfication Plugin for Fellowship One</description>
+	<files>
+		<filename plugin="f1login">f1login.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>
