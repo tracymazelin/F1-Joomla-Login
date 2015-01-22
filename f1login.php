@@ -126,7 +126,7 @@ class plgAuthenticationF1Login extends JPlugin
 		$response->type = 'f1login';
 		if ($success)
 		{
-			$response->status			= JAUTHENTICATE_STATUS_SUCCESS;
+			$response->status			= JAuthentication::STATUS_SUCCESS;
 			$response->error_message	= '';
 			// You may also define other variables:
 			
@@ -140,7 +140,7 @@ class plgAuthenticationF1Login extends JPlugin
 		}
 		else
 		{
-			$response->status			= JAUTHENTICATE_STATUS_FAILURE;
+			$response->status			= JAuthentication::STATUS_FAILURE;
 			$response->error_message	= 'Could not authenticate';
 			return false;
 		}
